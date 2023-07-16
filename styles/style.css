@@ -1,0 +1,93 @@
+/* share style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+.text-title{
+color: #131313;
+font-size: 20px;
+font-weight: 600;
+}
+.text-discription{
+    color:#727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    border:0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+}
+/* header area */
+
+.header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style:none;
+}
+nav li a{
+text-decoration: none;
+margin: 20px;
+color: #424242;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+
+.nav-title{
+color: #131313;
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+}
+
+/* bannar area */
+.bannar-container{
+margin-top: 116px;
+
+
+
+}
+.bannar-content{
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bannar-title{
+color: #131313;
+text-align: center;
+font-size: 64px;
+font-weight: 700;
+}
+
+.bannar-container img {
+    width: 100%;
+}
